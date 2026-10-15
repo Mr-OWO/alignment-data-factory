@@ -4,9 +4,10 @@ build-backend = "hatchling.build"
 
 [project]
 name = "alignment-data-factory"
-version = "0.1.0"
+version = "1.0.0"
 description = "SFT & RLHF/DPO Preference Dataset Curation & AST Alignment Pipeline"
 readme = "README.md"
+license = { text = "MIT" }
 requires-python = ">=3.10"
 authors = [
     { name = "Wisdom Ogechi Owabor", email = "contact@wisdomowabor.online" }
