@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "alignment-data-factory"
+version = "0.1.0"
+description = "SFT & RLHF/DPO Preference Dataset Curation & AST Alignment Pipeline"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Wisdom Ogechi Owabor", email = "contact@wisdomowabor.online" }
+]
+dependencies = [
+    "pydantic>=2.5.0",
+    "polars>=0.20.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "ruff>=0.1.0",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
