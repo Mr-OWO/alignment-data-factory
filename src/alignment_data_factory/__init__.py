@@ -1,6 +1,6 @@
 """SFT & RLHF/DPO Preference Dataset Curation Pipeline."""
 
-__version__ = "0.1.0"
+__version__ = "1.0.0"
 
 from .models import PreferencePair, QualityFilterResult, DatasetSummary
 from .ast_verifier import ASTCodeVerifier, CodeValidationResult
@@ -11,6 +11,7 @@ from .filters import (
     CompositeAlignmentFilter,
 )
 from .pipeline import DatasetPipeline
+from .quality_audit import DatasetQualityAuditor
 
 __all__ = [
     "PreferencePair",
@@ -23,4 +24,5 @@ __all__ = [
     "RepetitiveNGramFilter",
     "CompositeAlignmentFilter",
     "DatasetPipeline",
+    "DatasetQualityAuditor",
 ]

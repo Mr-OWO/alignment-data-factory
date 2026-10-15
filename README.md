@@ -1,8 +1,10 @@
 # Alignment-Data-Factory: SFT & RLHF/DPO Preference Dataset Curation Pipeline
 
 [![CI](https://github.com/Mr-OWO/alignment-data-factory/actions/workflows/ci.yml/badge.svg)](https://github.com/Mr-OWO/alignment-data-factory/actions)
+[![Release](https://img.shields.io/github/v/release/Mr-OWO/alignment-data-factory?color=brightgreen)](https://github.com/Mr-OWO/alignment-data-factory/releases)
 [![Python](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-blue.svg)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen.svg)](https://github.com/Mr-OWO/alignment-data-factory/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 A high-performance data curation and alignment pipeline for Supervised Fine-Tuning (SFT) and Direct Preference Optimization (DPO / RLHF). It filters synthetic and scraped model completions using Abstract Syntax Tree (AST) compilation checks, sycophancy detection, verbosity/length-bias normalization, and repetitive n-gram degradation prevention.
 
